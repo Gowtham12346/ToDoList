@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 220);;
+}
+
+.Inpt,.para{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    border-top: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    font-size: 20px;
+}
+.Inpt{
+    margin-bottom: 20px;
+    
+}
+.Delete-button{
+    background-color: rgb(155, 41, 41);
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px;
+}
+.buton{
+    background-color: rgb(41, 206, 41);
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+p{
+    color: black;
+    font-size: 30px;
+}
+.box{
+    padding: 10px;
+}
